@@ -2,7 +2,7 @@
     "use strict";
     
     // loader
-    var loader = function () {
+    let loader = function () {
         setTimeout(function () {
             if ($('#loader').length > 0) {
                 $('#loader').removeClass('show');
@@ -59,8 +59,8 @@
     
     // Typed Initiate
     if ($('.hero .hero-text h2').length == 1) {
-        var typed_strings = $('.hero .hero-text .typed-text').text();
-        var typed = new Typed('.hero .hero-text h2', {
+        let typed_strings = $('.hero .hero-text .typed-text').text();
+        let typed = new Typed('.hero .hero-text h2', {
             strings: typed_strings.split(', '),
             typeSpeed: 100,
             backSpeed: 20,
@@ -94,7 +94,7 @@
     
     
     // Portfolio filter
-    var portfolioIsotope = $('.portfolio-container').isotope({
+    let  portfolioIsotope = $('.portfolio-container').isotope({
         itemSelector: '.portfolio-item',
         layoutMode: 'fitRows'
     });
@@ -106,6 +106,7 @@
     });
     
 })(jQuery);
+//  librarry
 VanillaTilt.init(document.querySelector(".me"), {
     max: 15,
     speed: 400,
@@ -126,12 +127,12 @@ VanillaTilt.init(document.querySelector(".featured-item"), {
     glare: true,
     "max-glare": 1,
 });
-VanillaTilt.init(document.querySelector(".price-item"), {
-    max: 15,
-    speed: 400,
-    glare: true,
-    "max-glare": 1,
-});
+// // // VanillaTilt.init(document.querySelector(".price-item"), {
+// //     max: 15,
+// //     speed: 400,
+// //     glare: true,
+// //     "max-glare": 1,
+// });
 // VanillaTilt.init(document.querySelector(".fadeInUp"), {
 //     max: 15,
 //     speed: 400,

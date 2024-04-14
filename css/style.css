@@ -194,7 +194,7 @@ a:focus {
   }
 
   .navbar.nav-sticky .navbar-brand {
-    color: #ef233c;
+    color: #000000;
   }
   .navbar.nav-sticky .navbar-brand:hover {
     color: #000;
@@ -257,10 +257,10 @@ a:focus {
   padding: 120px 0 0 0;
   overflow: hidden;
   background: linear-gradient(
-      #2382efb1,
+      #ff2626bf,
      /* rgba(11, 172, 129, 0.865), */
-      rgba(59, 35, 239, 0.543),
-      rgb(17, 177, 230),
+      rgba(248, 4, 65, 0.854),
+      rgba(255, 177, 155, 0.902),
       rgb(214, 253, 255)
     ),
     url(../img/hero-bg.jpg);
@@ -1222,11 +1222,8 @@ a:focus {
   position: relative;
   margin: 45px 0;
   padding: 90px 0;
-  background: linear-gradient(
-           rgba(59, 35, 239, 0.543),
-      rgb(17, 177, 230),
-      rgb(214, 253, 255)
-    ),;
+  background: 
+  #EF243C;
 }
 
 .testimonial .container {
@@ -1549,7 +1546,6 @@ a:focus {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-
 .footer .copyright::before {
   position: absolute;
   content: "";
@@ -1600,5 +1596,5 @@ a:focus {
   border-radius: 10px;
 }
 int:hover {
-  color: #000;
+  color: #ff0000;
 }
